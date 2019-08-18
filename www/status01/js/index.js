@@ -1,4 +1,4 @@
-var url = "https://api.minetools.eu/ping/mc.hypixel.net/25565";
+var url = "https://api.minetools.eu/ping/95.217.40.83/25565";
 $.getJSON(url, function(r) {
  if(r.error){
     $('#rest').html('Server Offline');
